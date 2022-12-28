@@ -1,8 +1,8 @@
 import React from "react";
-function Walid () {
+function Walid (props) {
     return (
         <div>
-            <h1>Walid</h1>
+            <h1>Walid {props.name}</h1>
             <p> walid is a good guy</p>
         </div>
     )

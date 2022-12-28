@@ -5,7 +5,7 @@ import Walid from './walid';
 function App() {
   return (
     <div className="App">
-      <Walid />
+      <Walid name="Daudzai"/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
