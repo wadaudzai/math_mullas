@@ -4,6 +4,9 @@ function Walid (props) {
         <div>
             <h1>Walid {props.name}</h1>
             <p> walid is a good guy</p>
+        <div>
+            <h1>walid</h1>
+        </div>
         </div>
     )
 }
