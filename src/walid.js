@@ -1,13 +1,23 @@
 import React from "react";
 function Walid (props) {
     return (
-        <div>
-            <h1>Walid {props.name}</h1>
-            <p> walid is a good guy</p>
-        <div>
-            <h1>walid</h1>
-        </div>
-        </div>
+        <div className="App">
+      <Walid name="Daudzai"/>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
     )
 }
 export default Walid;
